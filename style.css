@@ -1,0 +1,53 @@
+*{padding:0px;
+    margin:0px;
+    }
+    .login-content{
+      width:100%;
+      height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background-color:black;
+    }
+    
+    #formulario{
+        text-align:left;
+        width:500px;
+        padding:40px;
+        border:solid 1px green;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        background-color:#952b7b;
+        border-radius:10px;
+    }
+    
+    #formulario input{
+      outline:none;
+      border:none;
+      padding-left:10px;
+      height: 40px;
+      width:100%;
+      border-radius:10px;
+    }
+    
+    #formulario label{
+      padding:10px;
+      color:white;
+    }
+    #botao-login{
+        margin-top:20px;
+        width:100%;
+        padding:0px;
+        background:black;
+        cursor:pointer;
+        color:black;
+        font-weight:700;
+        color:white;
+      }
+      
+      #botao-login:hover{
+        background-color:#300b28;
+      color:white;
+      }    
+
